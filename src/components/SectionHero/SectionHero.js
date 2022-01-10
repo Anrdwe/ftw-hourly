@@ -19,7 +19,7 @@ const SectionHero = props => {
         </h1>
         <h2 className={css.heroSubTitle}>
           <FormattedMessage id="SectionHero.subTitle" />
-          asdasd
+          
         </h2>
         <NamedLink
           name="SearchPage"
