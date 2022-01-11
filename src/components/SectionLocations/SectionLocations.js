@@ -8,7 +8,7 @@ import { NamedLink } from '../../components';
 
 import css from './SectionLocations.module.css';
 
-import nyImage from './images/ny-yogi.jpg';
+import McGillImage from './images/mcgill-aerialview.png';
 import laImage from './images/la-yogi.jpg';
 import sfImage from './images/sf-yogi.jpg';
 
@@ -51,9 +51,9 @@ const SectionLocations = props => {
       </div>
       <div className={css.locations}>
         {locationLink(
-          'New York',
-          nyImage,
-          '?address=New%20York%20City%2C%20New%20York%2C%20USA&bounds=40.917576401307%2C-73.7008392055224%2C40.477399%2C-74.2590879797556'
+          'McGill',
+          McGillImage,
+          '?address=McGill%20University%2C%20845%20Rue%20Sherbrooke%20Ouest%2C%20Montreal%2C%20Quebec%20H3A%202K6%2C%20Canada&bounds=45.51111009%2C-73.57248559%2C45.49868052%2C-73.58530308'
         )}
         {locationLink(
           'Los Angeles',
