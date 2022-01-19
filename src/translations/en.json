@@ -230,7 +230,7 @@
   "EditListingDescriptionForm.titlePlaceholder": "What's your name?",
   "EditListingDescriptionForm.titleRequired": "You need to add a name.",
   "EditListingDescriptionForm.updateFailed": "Failed to update. Please try again.",
-  "EditListingDescriptionPanel.createListingTitle": "Create teacher profile",
+  "EditListingDescriptionPanel.createListingTitle": "Create principal investigator profile",
   "EditListingDescriptionPanel.listingTitle": "your teacher profile",
   "EditListingDescriptionPanel.title": "Edit {listingTitle}",
   "EditListingFeaturesForm.showListingFailed": "Fetching teacher profile data failed",
@@ -1115,7 +1115,7 @@
   "UserCard.viewProfileLink": "View user profile",
   "UserDisplayName.banned": "Banned user",
   "UserDisplayName.deleted": "Deleted user",
-  "UserNav.newListing": "Create teacher profile",
+  "UserNav.newListing": "Create PI profile",
   "UserNav.editListing": "Edit teacher profile",
   "UserNav.profileSettingsPage": "Edit user profile",
   "UserNav.contactDetailsPage": "Account settings"

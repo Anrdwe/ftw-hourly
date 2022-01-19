@@ -65,11 +65,6 @@ const Footer = props => {
           <div className={css.someLiksMobile}>{socialMediaLinks}</div>
           <div className={css.links}>
             <div className={css.organization} id="organization">
-              <NamedLink name="LandingPage" className={css.logoLink}>
-                <span className={css.logo}>
-                  <Logo format="desktop" />
-                </span> 
-              </NamedLink>
               <div className={css.organizationInfo}>
                 <p className={css.organizationDescription}>
                   <FormattedMessage id="Footer.organizationDescription" />
