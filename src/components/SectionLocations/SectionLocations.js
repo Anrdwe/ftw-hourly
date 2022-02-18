@@ -9,8 +9,8 @@ import { NamedLink } from '../../components';
 import css from './SectionLocations.module.css';
 
 import McGillImage from './images/mcgill-aerialview.png';
-import laImage from './images/la-yogi.jpg';
-import sfImage from './images/sf-yogi.jpg';
+import ConcordiaImage from './images/concordia-aerialview.jpg';
+import UdeMImage from './images/UdeM-aerialview.jpg';
 
 class LocationImage extends Component {
   render() {
@@ -56,13 +56,13 @@ const SectionLocations = props => {
           '?address=McGill%20University%2C%20845%20Rue%20Sherbrooke%20Ouest%2C%20Montreal%2C%20Quebec%20H3A%202K6%2C%20Canada&bounds=45.51111009%2C-73.57248559%2C45.49868052%2C-73.58530308'
         )}
         {locationLink(
-          'Los Angeles',
-          laImage,
+          'Concordia',
+          ConcordiaImage,
           '?address=Los%20Angeles%2C%20California%2C%20USA&bounds=34.161440999758%2C-118.121305008073%2C33.9018913203336%2C-118.521456965901'
         )}
         {locationLink(
-          'San Francisco',
-          sfImage,
+          'University of Montreal',
+          UdeMImage,
           '?address=San%20Francisco%2C%20California%2C%20USA&bounds=37.8324430069081%2C-122.354995082683%2C37.6044780500533%2C-122.517910874663'
         )}
       </div>
