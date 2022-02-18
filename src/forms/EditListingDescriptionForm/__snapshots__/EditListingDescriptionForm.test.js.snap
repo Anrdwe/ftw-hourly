@@ -35,7 +35,7 @@ exports[`EditListingDescriptionForm matches snapshot 1`] = `
     <label
       htmlFor="description"
     >
-      EditListingDescriptionForm.description
+      EditListingDescriptionForm.university
     </label>
     <textarea
       className="input textarea"
@@ -45,7 +45,7 @@ exports[`EditListingDescriptionForm matches snapshot 1`] = `
       onBlur={[Function]}
       onChange={[Function]}
       onFocus={[Function]}
-      placeholder="EditListingDescriptionForm.descriptionPlaceholder"
+      placeholder="EditListingDescriptionForm.universityPlaceholder"
       rows={1}
       value=""
     />

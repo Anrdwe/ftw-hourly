@@ -47,14 +47,14 @@ const EditListingDescriptionFormComponent = props => (
       );
 
       const descriptionMessage = intl.formatMessage({
-        id: 'EditListingDescriptionForm.description',
+        id: 'EditListingDescriptionForm.university',
       });
       const descriptionPlaceholderMessage = intl.formatMessage({
-        id: 'EditListingDescriptionForm.descriptionPlaceholder',
+        id: 'EditListingDescriptionForm.universityPlaceholder',
       });
       const maxLength60Message = maxLength(maxLengthMessage, TITLE_MAX_LENGTH);
       const descriptionRequiredMessage = intl.formatMessage({
-        id: 'EditListingDescriptionForm.descriptionRequired',
+        id: 'EditListingDescriptionForm.universityRequired',
       });
 
       const { updateListingError, createListingDraftError, showListingsError } = fetchErrors || {};

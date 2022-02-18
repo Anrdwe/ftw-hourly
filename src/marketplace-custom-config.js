@@ -129,7 +129,7 @@ export const filters = [
       // to make filter customizations a bit easier.
       options: [
         { key: 'none', label: 'None', hideFromFilters: true, hideFromListingInfo: true },
-        { key: '200h', label: 'Registered yoga teacher 200h' },
+        { key: '200h', label: 'Registered yoga teacher 200h test' },
         { key: '500h', label: 'Registered yoga teacher 500h' },
       ],
     },
